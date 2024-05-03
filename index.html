@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tekno Muro</title>
+        <link rel="stylesheet" href="./Css/style.css">
+        <link rel="stylesheet" href="./Css/responsive.css">
+        <link rel="stylesheet" href="./Css/layout.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Swiper -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <!-- AOS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="non-responsive_nav">
+                <div class="logo_container">
+                    <a href="/index.html">
+                        <div class="logo">
+                            <svg width="50" height="50" viewBox="0 0 50 50"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="50" height="50" rx="22"
+                                    fill="#6440FB" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12.999 23.5386L14.4985 24.4175V26.1727V27.9304V29.6856V31.4407L15.998 32.3196L17.4975 33.1984L18.997 34.0773L20.4965 34.9561L21.9959 35.835L23.4954 36.7138L24.9949 37.5927L26.4944 36.7138L27.9939 35.835L29.4934 34.9561L30.9929 34.0773L32.4924 33.1984L33.9919 32.3196L35.4914 31.4407V29.6856V27.9304V26.1727V24.4175L36.9909 23.5386V26.7172C36.8668 26.7932 36.7832 26.9376 36.7832 27.0895C36.7832 27.2415 36.8541 27.363 36.9605 27.4416L36.9098 27.5961L36.6084 28.5382H37.2112H37.8141L37.5127 27.5961L37.462 27.4416C37.5709 27.363 37.6393 27.2567 37.6393 27.0895C37.6393 26.9224 37.5177 26.7375 37.3506 26.6767V23.3259L25.3622 16.3001L25.7244 16.0874L37.7254 23.1131L38.5005 22.6598L40 21.7809L38.5005 20.9021L37.001 20.0232L35.5015 19.1444L33.9995 18.2681L32.5 17.3892L31.0005 16.5103L29.501 15.634L28.0015 14.7552L26.502 13.8763L25 13L23.5005 13.8789L22.001 14.7577L20.499 15.634L18.9995 16.5129L17.5 17.3917L16.0005 18.2681L14.501 19.1469L13.0015 20.0258L11.502 20.9046L10 21.7809L11.4995 22.6598L12.999 23.5386ZM23.5005 20.9046L25 20.0258L26.4995 20.9046L27.999 21.7835L26.4995 22.6623L25 23.5412L23.5005 24.4175V26.1752L25 27.0541L26.4995 26.1752L27.999 25.2963L29.4985 24.4175L30.998 23.5386L32.4975 22.6598L33.5284 22.0545L33.997 21.7809L32.7229 21.0363L32.4975 20.9046L30.998 20.0258L29.4985 19.1469L28.0015 18.2681L26.502 17.3892L25.0025 16.5103L23.5005 17.3917L22.001 18.2681L20.5015 19.1469L19.002 20.0258L17.5025 20.9046L16.003 21.7835L17.5025 22.6623V24.4175V26.1727V27.9304V28.832V29.6856L19.002 30.5644L20.5015 31.4433L22.001 32.3221L23.5005 33.201L25 34.0798L26.4995 33.201L27.999 32.3221L29.4985 31.4433L30.998 30.5644L32.4975 29.6856V27.9304V26.1727L30.998 27.0515L29.4985 27.9304L27.999 28.8092L26.4995 29.6881L25 30.5669L23.5005 29.6856L22.001 28.8067L20.5015 27.9278V22.6598L22.001 21.7809L23.5005 20.9046Z"
+                                    fill="white" />
+                            </svg>
+                            <span>TeknoMuro</span>
+                        </div>
+                    </a>
+                    <div class="header_explore">
+                        <button class="explore_button">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                            Explore
+                        </button>
+                    </div>
+                </div>
+                <div class="nav_container">
+                    <ul class="nav">
+                        <li class="active"><a href="/index.html">Əsas Səhifə
+                            </a></li>
+                        <li class="dropdown_list"><a href="#">Kurslarımız <i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdown ">
+                                <span>Populyar Kurslar</span>
+                                <ul>
+                                    <li><a href="#">Web Developer</a></li>
+                                    <li><a href="#">Mobile Developer</a></li>
+                                    <li><a href="#">Rəqəmsal Marketinq</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">Maliyyə və
+                                            Mühasibatlıq</a></li>
+                                    <li><a href="#">Dizayn</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="/events.html">Fəaliyyətlərimiz </a></li>
+                        <li><a href="/blog.html">Blog </a></li>
+                        <li><a href="/about.html">Hakkımızda</a></li>
+                        <li><a href="/contact.html">Əlaqə</a></li>
+                    </ul>
+                </div>
+                <div class="tools_container">
+                    <div class="header_search">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                    <div class="header_cart">
+                        <a href="#">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="cart_number">
+                                <span>0</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="menu_container">
+                        <button onclick=showSidebar() class="menu_button"><i
+                                class="fa-solid fa-bars-staggered"></i></button>
+                    </div>
+                    <div class="log_in">
+                        <a href="#">
+                            Daxil ol
+                        </a>
+                    </div>
+                    <div class="sign_up">
+                        <button>
+                            <a href="#">Qeydiyyat</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile_menu">
+                <div class="mobile_menu_header">
+                    <div>
+                        <a href="#">
+                            Daxil Ol
+                        </a>
+                        <a href="#">
+                            Qeydiyyat
+                        </a>
+                    </div>
+                    <div>
+                        <button onclick=hideSidebar() class="exit_button">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="mobile_menu_body">
+                    <ul class="mobile_menu_list">
+                        <li class="active"><a href="/index.html">Əsas
+                                Səhifə</a><i
+                                class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="#">Kurslarımız</a><i
+                                class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="/events.html">Fəaliyyətlərimiz</a><i
+                                class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="/blog.html">Blog</a><i
+                                class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="/about.html">Hakkımızda</a><i
+                                class="fa-solid fa-angle-right"></i></li>
+                        <li><a href="/contact.html">Əlaqə</a><i
+                                class="fa-solid fa-angle-right"></i></li>
+                    </ul>
+                </div>
+                <div class="mobile_menu_footer">
+                    <div class="menu_number">
+                        <ul>
+                            <li>Bizə zəng edin</li>
+                            <li>+99470 777 55 55</li>
+                        </ul>
+                    </div>
+                    <div class="menu_address">
+                        <ul>
+                            <li>329 Queensberry Street,</li>
+                            <li>North Melbourne VIC 3051,Australia.</li>
+                            <li>hi@teknomuro.com</li>
+                        </ul>
+                    </div>
+                    <div class="menu_social_media">
+                        <ul>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ========================= Welcome Section ================================ -->
+        <section class="welcome_section">
+            <div class="welcome_bg ">
+                <img src="./Assets/welcome_section_img/bg.webp"
+                    alt="dark blue background with stars">
+            </div>
+            <div class="welcome_content">
+                <div class="welcome_text_container col-md-10"
+                    data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="welcome_title">
+                        <span>
+                            Ən Yaxşı <u>Pedaqoqlarla</u> Onlayn Yeni Bacarıqları
+                            öyrənin
+                        </span>
+                    </div>
+                    <div class="welcome_text">
+                        <span>
+                            Onlayn kurslar, sertifikatlar və dərəcələrlə
+                            bacarıqlar yaradın
+                            dünya səviyyəli universitetlər və şirkətlər.
+                        </span>
+                    </div>
+                    <div class="welcome_buttons">
+                        <button class="join_button">
+                            Pulsuz Qoşulun
+                        </button>
+                        <button class="find_button">
+                            Kursları tapın
+                        </button>
+                    </div>
+                    <div class="welcome-info_title">
+                        <div>
+                            <img
+                                src="./Assets/welcome_section_img/schoolHat.svg"
+                                alt>
+                            <span>
+                                12 milyondan çox tələbə
+                            </span>
+                        </div>
+                        <div>
+                            <img
+                                src="./Assets/welcome_section_img/course_videos.svg"
+                                alt>
+                            <span>
+                                60.000-dən çox kurs
+                            </span>
+                        </div>
+                        <div>
+                            <img src="./Assets/welcome_section_img/learning.svg"
+                                alt>
+                            <span>
+                                Hər şeyi onlayn öyrənin
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome_image col-md-10" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="image_1">
+                        <img src="./Assets/welcome_section_img/1.webp"
+                            alt="insan resimleri">
+                        <div class="image_1_content">
+                            <div class="image_1_content_logo">
+                                <div>
+                                    <img
+                                        src="./Assets/welcome_section_img/is_cantasi.svg"
+                                        alt>
+                                </div>
+                            </div>
+                            <div class="image_1_content_text">
+                                <ul>
+                                    <li>3.000+</li>
+                                    <li>Pulsuz Kurslar</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image_2">
+                        <img src="./Assets/welcome_section_img/2.webp"
+                            alt="insan resimleri">
+                        <div></div>
+                    </div>
+                    <div class="image_3">
+                        <img src="./Assets/welcome_section_img/3.webp"
+                            alt="insan resimleri">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave_animation">
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28" preserveAspectRatio="none"
+                    shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave"
+                            d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0"
+                            fill="rgba(255,255,255,0.7)" />
+                        <use xlink:href="#gentle-wave" x="48" y="3"
+                            fill="rgba(255,255,255,0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5"
+                            fill="rgba(255,255,255,0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7"
+                            fill="#fff" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!-- ========================= Brand Section ================================ -->
+
+        <section>
+            <div class="brand_container">
+                <p data-aos="fade-up" data-aos-duration="1500">Dünyanın ən
+                    yaxşıları tərəfindən etibar
+                    edilir</p>
+                <ul class="brand_list" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <li>
+                        <img src="./Assets/brand_section_img/Amazon.svg"
+                            alt="amazon logosu">
+                    </li>
+                    <li>
+                        <img src="./Assets/brand_section_img/AMD.svg"
+                            alt="AMD logosu">
+                    </li>
+                    <li>
+                        <img src="./Assets/brand_section_img/CISCO.svg"
+                            alt="CISCO logosu">
+                    </li>
+                    <li>
+                        <img src="./Assets/brand_section_img/dropcam.svg"
+                            alt="dropcam logosu">
+                    </li>
+                    <li>
+                        <img src="./Assets/brand_section_img/logitech.svg"
+                            alt="logitech logosu">
+                    </li>
+                    <li>
+                        <img src="./Assets/brand_section_img/Spotify.svg"
+                            alt="Spotify logosu">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ========================= Top Categories Section ================================ -->
+
+        <section>
+            <div class="top_categories_container">
+                <div class="top_categories_title" data-aos="fade-down"
+                    data-aos-duration="1500">
+                    <h2>
+                        Ən yaxşı kateqoriyalar
+                    </h2>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur.
+                    </span>
+                </div>
+                <div class="top_categories_slider">
+                    <div class="swiper mySwiper" data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="500"
+                        data-aos-offset="0"
+                        data-aos-duration="1200">
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Design Creative.svg"
+                                        alt="design creative icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        <span>Dizayn Yaradıcı</span>
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        <span>573+ Kursları</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Sales Marketing.svg"
+                                        alt="Sales Marketing icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Satış marketinqi
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        565+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Development IT.svg"
+                                        alt="Development IT icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Development IT
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        126+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Engineering Architecture.svg"
+                                        alt="Engineering Architecture icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Mühəndislik Memarlığı
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        35+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Personal Development.svg"
+                                        alt="Personal Development icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Personal Development
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        908+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Finance Accounting.svg"
+                                        alt="Finance Accounting icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Maliyyə Mühasibatlığı
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        129+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Design Creative.svg"
+                                        alt="design creative icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        <span>Dizayn Yaradıcı</span>
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        <span>573+ Kursları</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Sales Marketing.svg"
+                                        alt="Sales Marketing icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Satış marketinqi
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        565+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Development IT.svg"
+                                        alt="Development IT icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Development IT
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        126+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Engineering Architecture.svg"
+                                        alt="Engineering Architecture icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Mühəndislik Memarlığı
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        35+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Personal Development.svg"
+                                        alt="Personal Development icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Personal Development
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        908+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide_icon">
+                                    <img
+                                        src="./Assets/top_categories_img/Finance Accounting.svg"
+                                        alt="Finance Accounting icon">
+                                </div>
+                                <div class="swiper-slide_content">
+                                    <div class="swiper-slide_title">
+                                        Maliyyə Mühasibatlığı
+                                    </div>
+                                    <div class="swiper-slide_text">
+                                        129+ Kursları
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper_pagination_container">
+                            <div class="swiper_buttons_container">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= Popular Courses Section ================================ -->
+
+        <section class="popular_courses_section">
+            <div class="popular_courses_container">
+                <div class="popular_courses_title" data-aos="fade-down"
+                    data-aos-duration="1500">
+                    <h2>Ən Populyar Kurslarımız</h2>
+                    <span>10,000+ unikal onlayn kurs siyahısı dizaynı</span>
+                </div>
+                <div class="popular_courses_categories" data-aos="fade-left">
+                    <ul>
+                        <li><button class="active_category">Bütün
+                                Kategoriyalar</button></li>
+                        <li><button>Animasyon</button></li>
+                        <li><button>Dizayn</button></li>
+                        <li><button>Fotoqrafiya</button></li>
+                        <li><button>İncəsənət</button></li>
+                        <li><button>Proqramlaşdırma</button></li>
+                        <li><button>Yazı</button></li>
+                    </ul>
+                </div>
+                <div class="popular_courses_list">
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="800">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item_1.webp">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item2.webp">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item_1.webp">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="1400">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item3.webp">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular_courses_list">
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="800">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item4.png">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item5.png">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="1200">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item6.webp">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_items" data-aos="fade-up"
+                        data-aos-duration="1400">
+                        <div class="list_items_img">
+                            <img class="item_img"
+                                src="./Assets/popular_courses_img/item7.webp">
+                            <div class="list_items_overlay"></div>
+                        </div>
+                        <div class="list_items_info">
+                            <div class="rating">
+                                <span class="point">4.3</span>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <span class="year">(1991)</span>
+                            </div>
+                            <div class="list_items_title">
+                                <span>Figma Öyrənin - UI/UX Design əsas təlimi
+                                </span>
+                            </div>
+                            <div class="list_items_exp">
+                                <span><img
+                                        src="./Assets/popular_courses_img/document.svg"
+                                        alt="ders">6 ders</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/clock.svg"
+                                        alt="saat"> 22s 0d</span>
+                                <span> <img
+                                        src="./Assets/popular_courses_img/level.svg"
+                                        alt="seviye"> Başlanğıç</span>
+                            </div>
+                            <div class="list_items_price">
+                                <div class="profil">
+                                    <img
+                                        src="./Assets/popular_courses_img/profil.webp"
+                                        alt="profil resmi">
+                                    <span>Jane Cooper</span>
+                                </div>
+                                <div class="price">
+                                    <span class="prev_price">199 AZN</span>
+                                    <span class="current_price">79 AZN</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================= Company info Section ================================ -->
+
+        <section class="company_info_section">
+            <div class="company_info_container">
+                <div data-aos="fade-left" data-aos-duration="1500">
+                    <span>350,000+</span>
+                    <span>Bütün dünyada tələbələr</span>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1500">
+                    <span>496,000+</span>
+                    <span>Ümumi kurs baxışları</span>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1500">
+                    <span>19,000+</span>
+                    <span>Beşulduzlu kurs rəyləri</span>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1500">
+                    <span>987,000+</span>
+                    <span>Tələbə icması</span>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= Footer Section ================================ -->
+
+        <footer>
+            <div class="footer_top">
+                <div class="logo">
+                    <svg width="50" height="50" viewBox="0 0 50 50"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="50" height="50" rx="22"
+                            fill="#6440FB" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.999 23.5386L14.4985 24.4175V26.1727V27.9304V29.6856V31.4407L15.998 32.3196L17.4975 33.1984L18.997 34.0773L20.4965 34.9561L21.9959 35.835L23.4954 36.7138L24.9949 37.5927L26.4944 36.7138L27.9939 35.835L29.4934 34.9561L30.9929 34.0773L32.4924 33.1984L33.9919 32.3196L35.4914 31.4407V29.6856V27.9304V26.1727V24.4175L36.9909 23.5386V26.7172C36.8668 26.7932 36.7832 26.9376 36.7832 27.0895C36.7832 27.2415 36.8541 27.363 36.9605 27.4416L36.9098 27.5961L36.6084 28.5382H37.2112H37.8141L37.5127 27.5961L37.462 27.4416C37.5709 27.363 37.6393 27.2567 37.6393 27.0895C37.6393 26.9224 37.5177 26.7375 37.3506 26.6767V23.3259L25.3622 16.3001L25.7244 16.0874L37.7254 23.1131L38.5005 22.6598L40 21.7809L38.5005 20.9021L37.001 20.0232L35.5015 19.1444L33.9995 18.2681L32.5 17.3892L31.0005 16.5103L29.501 15.634L28.0015 14.7552L26.502 13.8763L25 13L23.5005 13.8789L22.001 14.7577L20.499 15.634L18.9995 16.5129L17.5 17.3917L16.0005 18.2681L14.501 19.1469L13.0015 20.0258L11.502 20.9046L10 21.7809L11.4995 22.6598L12.999 23.5386ZM23.5005 20.9046L25 20.0258L26.4995 20.9046L27.999 21.7835L26.4995 22.6623L25 23.5412L23.5005 24.4175V26.1752L25 27.0541L26.4995 26.1752L27.999 25.2963L29.4985 24.4175L30.998 23.5386L32.4975 22.6598L33.5284 22.0545L33.997 21.7809L32.7229 21.0363L32.4975 20.9046L30.998 20.0258L29.4985 19.1469L28.0015 18.2681L26.502 17.3892L25.0025 16.5103L23.5005 17.3917L22.001 18.2681L20.5015 19.1469L19.002 20.0258L17.5025 20.9046L16.003 21.7835L17.5025 22.6623V24.4175V26.1727V27.9304V28.832V29.6856L19.002 30.5644L20.5015 31.4433L22.001 32.3221L23.5005 33.201L25 34.0798L26.4995 33.201L27.999 32.3221L29.4985 31.4433L30.998 30.5644L32.4975 29.6856V27.9304V26.1727L30.998 27.0515L29.4985 27.9304L27.999 28.8092L26.4995 29.6881L25 30.5669L23.5005 29.6856L22.001 28.8067L20.5015 27.9278V22.6598L22.001 21.7809L23.5005 20.9046Z"
+                            fill="white" />
+                    </svg>
+                    <span>TeknoMuro</span>
+                </div>
+                <div class="social_media">
+                    <span>
+                        Bizi sosial mediada izləyin
+                    </span>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_body">
+                <div class="body_list">
+                    <span>Məlumat</span>
+                    <ul>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Öyrənən Hekayələri</a></li>
+                        <li><a href="#">Karyera</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Rəhbərlik</a></li>
+                        <li><a href="#">Bizimlə Əlaqə</a></li>
+                    </ul>
+                </div>
+                <div class="body_list">
+                    <span>Kateqoriyalar</span>
+                    <ul>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Finans və Hesabat</a></li>
+                        <li><a href="#">İT & Software</a></li>
+                        <li><a href="#">Office Productivity</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Marketing</a></li>
+
+                    </ul>
+                </div>
+                <div class="body_list">
+                    <span>Digərləri</span>
+                    <ul>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Şəkil və Video</a></li>
+                        <li><a href="#">Sağlamlıq və Fitness</a></li>
+                        <li><a href="#">Musiqi</a></li>
+                        <li><a href="#">UX Design</a></li>
+                        <li><a href="#">SEO</a></li>
+                    </ul>
+                </div>
+                <div class="body_list">
+                    <span>Dəstək</span>
+                    <ul>
+                        <li><a href="#">Sənədlər</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Əlaqə</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer_input">
+                    <h3>Əlaqədə olmaq</h3>
+                    <span>Biz spam göndərmirik, narahat olmayın.</span>
+                    <div class="input_container">
+                        <input type="text" placeholder="Email...">
+                        <button>Göndər</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <p>&copy; 2024 TeknoMuro.Bütün hüquqlar qorunur.
+                </div>
+            </footer>
+
+            <!-- =========================Swiper Script=========================================== -->
+            <script
+                src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Menu Script -->
+            <script>
+            function showSidebar() {
+                const sidebar=document.getElementById('mobile_menu')
+                sidebar.style.left ='0px'
+            }
+            function hideSidebar() {
+                const sidebar=document.getElementById('mobile_menu')
+                sidebar.style.left ="-1125px"
+            }
+        </script>
+            <!-- Swiper Script -->
+            <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: "auto",
+              spaceBetween: 30,
+              grabCursor: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+        
+          </script>
+            <!-- Aos script -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+            AOS.init();
+          </script>
+        </body>
+    </html>
